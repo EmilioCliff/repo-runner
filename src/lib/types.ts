@@ -1,4 +1,3 @@
-import { LucideIcon } from 'lucide-react';
 import { FC, SVGProps } from 'react';
 
 export interface SubMenu {
