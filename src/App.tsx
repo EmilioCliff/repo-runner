@@ -32,11 +32,11 @@ function App() {
 					<div className="flex-center gap-x-5">
 						<a
 							href="#"
-							className="text-sm text-gray-300 hover:text-white"
+							className="text-sm text-gray-300 hover:text-white transition"
 						>
 							Sign In
 						</a>
-						<button className="bg-blue-600 p-2 rounded-md hover:bg-blue-700">
+						<button className="bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 transition">
 							Get Started
 						</button>
 					</div>
@@ -103,24 +103,30 @@ function App() {
 				<div className="mx-auto w-full text-white flex justify-center items-center overflow-x-hidden">
 					<Marquee />
 				</div>
-				<div className="flex justify-evenly mt-8">
-					<div className="flex items-center justify-center flex-col">
-						<p className="text-blue-200 text-4xl md:text-6xl lg:text-7xl font-bold">
+				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full text-center mt-8">
+					<div className="flex flex-col items-center">
+						<p className="text-blue-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
 							20M+
 						</p>
-						<p>Monthly developers</p>
+						<p className="text-gray-300 text-sm sm:text-base">
+							Monthly developers
+						</p>
 					</div>
-					<div className="flex items-center justify-center flex-col">
-						<p className="text-blue-200 text-4xl md:text-6xl lg:text-7xl font-bold">
+					<div className="flex flex-col items-center">
+						<p className="text-blue-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
 							7M+
 						</p>
-						<p>Applications</p>
+						<p className="text-gray-300 text-sm sm:text-base">
+							Applications
+						</p>
 					</div>
-					<div className="flex items-center justify-center flex-col">
-						<p className="text-blue-200 text-4xl md:text-6xl lg:text-7xl font-bold">
+					<div className="flex flex-col items-center">
+						<p className="text-blue-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
 							20B+
 						</p>
-						<p>Monthly image pulls</p>
+						<p className="text-gray-300 text-sm sm:text-base">
+							Monthly image pulls
+						</p>
 					</div>
 				</div>
 			</section>
