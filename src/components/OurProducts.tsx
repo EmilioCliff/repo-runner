@@ -43,11 +43,22 @@ const OurProducts = () => {
 					transition={{ duration: 0.3 }}
 					className="flex flex-col md:flex-row items-center gap-8"
 				>
-					<img
-						src={tabContent[activeTab].image}
-						alt={activeTab}
-						className="w-full md:w-1/2 rounded-lg shadow-md"
-					/>
+					{/* from supabase  */}
+					<div className="w-full md:w-1/2">
+						<video
+							className="w-full h-auto rounded-lg shadow-md"
+							loop
+							autoPlay
+							playsInline
+							muted
+							poster="/images/index/dashboard/supabase-sql-editor.png"
+						>
+							<source
+								src="https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/website/supabase-sql-editor.webm"
+								type="video/webm"
+							/>
+						</video>
+					</div>
 
 					<div className="md:w-1/2">
 						<h3 className="text-2xlfont-bold mb-4 underline">

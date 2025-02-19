@@ -84,12 +84,7 @@ export default function MobMenu({ Menus }: MobMenuProps) {
 													className="flex items-center gap-2 hover:bg-white/5 rounded-md cursor-pointer"
 												>
 													{subMenu.icon && (
-														<subMenu.icon
-															style={{
-																width: '18px',
-																height: '18px',
-															}}
-														/>
+														<subMenu.icon className="w-8 h-8 fill-blue-900" />
 													)}
 													{subMenu.name}
 												</li>

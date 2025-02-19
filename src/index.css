@@ -22,9 +22,6 @@
 	.section-container {
 		@apply py-20 px-4;
 	}
-	/* .sub-menu {
-		@apply absolute top-[4.2rem] p-[15px] rounded-[6px] origin-[50%_-170px] backdrop-blur bg-white/[0.04];
-	} */
 	.sub-menu {
 		@apply absolute top-[4.2rem] left-0 w-screen p-[30px] rounded-[6px] backdrop-blur bg-primary border-b border-gray-300;
 	}
@@ -43,31 +40,22 @@ html {
 	scroll-behavior: smooth;
 }
 
-/* input,
-button,
-textarea {
-	outline: 0;
-}
-
-a {
-	text-decoration: none;
-}
-
-ul {
-	list-style: none;
-} */
-
 ::-webkit-scrollbar {
 	width: 7px;
 }
 
 ::-webkit-scrollbar-track {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: #020817;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: rgb(77, 126, 158);
+	background: linear-gradient(to bottom, #155dfc, #0a3bad);
 	border-radius: 4px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(to bottom, #2a6dff, #1549d6);
 }
 
 @layer utilities {

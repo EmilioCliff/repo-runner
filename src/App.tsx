@@ -94,10 +94,10 @@ function App() {
 					</p>
 					<a
 						href="#"
-						className="text-blue-800 mt-6 inline-flex mx-auto"
+						className="text-blue-800 mt-6 inline-flex mx-auto hover:underline"
 					>
 						Read More Customer Stories
-						<ArrowRight className="ml-4" />
+						<ArrowRight className="ml-2" />
 					</a>
 				</div>
 				<div className="mx-auto w-full text-white flex justify-center items-center overflow-x-hidden">
@@ -185,7 +185,6 @@ function App() {
 
 			{/* Our Products  */}
 			<OurProducts />
-			<video class="relative z-10 block w-full h-full reduce-motion:hidden" height="100%" width="100%" loop="" autoplay="" playsinline="" poster="/images/index/dashboard/supabase-sql-editor.png"><source src="https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/website/supabase-sql-editor.webm" type="video/webm"></video>
 
 			{/* CTA Section */}
 			<section className="py-20 px-4">
