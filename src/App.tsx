@@ -32,7 +32,7 @@ function App() {
 					<div className="flex-center gap-x-5">
 						<a
 							href="#"
-							className="text-sm text-gray-300 hover:text-white transition"
+							className="text-sm text-gray-300 hidden md:block hover:text-white transition"
 						>
 							Sign In
 						</a>
